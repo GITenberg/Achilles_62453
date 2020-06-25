@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <pgterms:ebook rdf:about="ebooks/62453">
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/62453/62453-0.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/62453"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-22T18:48:32</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd77bbe409d4140faa3897b7625370d3d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">229035</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/62453/62453-h.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/62453"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-22T18:48:36</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5b223e10b4854cf28f58f7b840fd2d46">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">664024</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N920a5ba9e4ec4b71bc9266b8666991f6">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/62453/62453-h/62453-h.htm">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-22T18:48:36</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">258063</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbd7a2e9a5d1c43a6800c7eedf773f234">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/62453"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/50608">
+        <pgterms:webpage rdf:resource="https://de.wikipedia.org/wiki/Karl_Friedrich_Becker"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1777</pgterms:birthdate>
+        <pgterms:alias>Becker, Carl Friedrich</pgterms:alias>
+        <pgterms:name>Becker, Karl Friedrich</pgterms:name>
+        <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/Karl_Friedrich_Becker"/>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1806</pgterms:deathdate>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:marc010>12022549</pgterms:marc010>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/62453/pg62453.cover.small.jpg">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N138fba620dcf40b6aee7de8b058c7a52">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/62453"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2222</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-24T10:22:39.947379</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N810f2494c4a541f49f4d6cd79cac94e6">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/62453.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-24T10:22:37.257416</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nac8547c7bfa84c148b8a3fb5d5049ee7">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/62453"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">722318</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:trl>
+      <pgterms:agent rdf:about="2009/agents/5760">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1919</pgterms:deathdate>
+        <pgterms:alias>Upton, George Putnam</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1834</pgterms:birthdate>
+        <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/George_Putnam_Upton"/>
+        <pgterms:name>Upton, George P. (George Putnam)</pgterms:name>
+      </pgterms:agent>
+    </marcrel:trl>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nccd6d64cc3f94730a716886585cb2d00">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PZ</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N5257b155b2ca47c9a958c5dfa0d01320">
+        <rdf:value>Achilles (Mythological character) -- Juvenile literature</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/62453/62453-0.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-22T18:48:36</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/62453"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N572e4b2dae4e45c6815b0beae172036f">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86399</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N45ba56e0f0614e8ea0a96243db3f2537">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/62453.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-24T10:22:38.199411</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164264</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/62453"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8655a17a428b46e29f15e9b133b480f1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/62453.kindle.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-24T10:22:39.918439</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4e6fb5ac86d5422999b4217a3b03eac8">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">556962</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/62453"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/62453/pg62453.cover.medium.jpg">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-24T10:22:39.971404</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/62453"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15184</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6143a3dd640f426f846baf6e159596d4">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>Achilles</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/62453.rdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6383</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-24T10:22:40.021373</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/62453"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4b820344cc204f62acc8a8f849600ac9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:marc440>Life Stories for Young People</pgterms:marc440>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N87cca96a22a94ffe8521b2c263ea99b6">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-06-23</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/62453.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1961123</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-24T10:22:39.260383</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N03cd5c5be03146c48b53df2b4dd0c3f6">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/62453"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/George_Putnam_Upton">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Karl_Friedrich_Becker">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://de.wikipedia.org/wiki/Karl_Friedrich_Becker">
+    <dcterms:description>de.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>
